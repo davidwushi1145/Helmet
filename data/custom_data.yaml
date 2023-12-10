@@ -1,0 +1,10 @@
+
+# 训练集和验证集的 labels 和 image 文件的位置
+train: ./score/images/train
+val: ./score/images/val
+
+# number of classes
+nc: 3
+
+# class names
+names: ['person', 'head', 'helmet']
